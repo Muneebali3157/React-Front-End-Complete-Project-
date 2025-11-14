@@ -39,7 +39,7 @@ const Menu = () => {
     setOrderSent(true);
     setCart([]); // Reset cart → total becomes zero
     setReturnMsg(
-      `🚚 Order for ${name} (Phone: ${phone}) will be delivered to: ${address} 🍔 Thank you for ordering ❤️`
+      `🚚 Order for ${name} (Phone: ${phone}) will be delivered to: ${address}  and payment will be recieve on delivery 🍔 Thank you for ordering ❤️ `
     );
     setName("");
     setPhone("");
