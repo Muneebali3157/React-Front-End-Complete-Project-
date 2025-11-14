@@ -27,7 +27,7 @@ const Child = (props) => {
     />
     <h3 className="text-lg font-bold text-gray-600    mt-2">{props.name}</h3>
     <p className="text-gray-600 text-sm">{props.about}</p>
-    <h4 className="text-xl font-bold text-shadow-red-950 mt-2">${props.price}</h4>
+    <h4 className="text-xl font-bold text-shadow-red-950 text-amber-950 mt-2">${props.price}</h4>
     <button className="bg-red-600 hover:bg-red-400 text-white font-bold py-2 px-4 rounded mt-4 cursor-pointer" onClick={handleAddToCart}>
       Add to cart
     </button>

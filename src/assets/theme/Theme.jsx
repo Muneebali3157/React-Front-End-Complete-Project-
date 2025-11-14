@@ -12,7 +12,7 @@ function Theme() {
                 <div>
                     <a href="#Home" className="text-gray-300 hover:text-white mx-4 hover:bg-black hover:rounded-2xl hover:w-[250px] transition-all duration-200 ease-in-out p-2">Home</a>
                     <a href="#Menu" className="text-gray-300 hover:text-white mx-4  hover:bg-black hover:rounded-2xl hover:w-[250px] transition-all duration-200 ease-in-out p-2">Menu</a>
-                    <a href="#order" className="text-gray-300 hover:text-white mx-4  hover:bg-black hover:rounded-2xl hover:w-[250px] transition-all duration-200 ease-in-out p-2">Order</a>
+                    <a href="#Menu" className="text-gray-300 hover:text-white mx-4  hover:bg-black hover:rounded-2xl hover:w-[250px] transition-all duration-200 ease-in-out p-2">Order</a>
                <button
         onClick={toggleTheme}
         className="px-6 py-3 bg-amber-950 hover:bg-amber-900 text-white font-semibold rounded-lg shadow-md transition-all duration-300"

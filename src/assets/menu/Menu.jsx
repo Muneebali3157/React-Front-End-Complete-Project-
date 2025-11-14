@@ -39,7 +39,7 @@ const Menu = () => {
     setOrderSent(true);
     setCart([]); // Reset cart → total becomes zero
     setReturnMsg(
-      `🚚 Order for ${name} (Phone: ${phone}) will be delivered to: ${address}  and payment will be recieve on delivery 🍔 Thank you for ordering ❤️ `
+      `🚚 Order for ${name} (Phone: ${phone}) will be delivered to: ${address}  and payment will be recieve on delivery n🍔 Thank you for ordering ❤️ `
     );
     setName("");
     setPhone("");
@@ -48,7 +48,7 @@ const Menu = () => {
 
   return (
     <div className="p-6">
-      <h2 className="text-2xl font-bold text-center mb-6">🍔 Our Menu</h2>
+      <h2 className="text-2xl font-bold text-center mb-6 ">🍔 Our Menu</h2>
 
       {/* MENU ITEMS */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -118,7 +118,7 @@ const Menu = () => {
 
             <button
               onClick={handleSendOrder}
-              className="w-full bg-green-600 text-white py-2 rounded"
+              className="w-full bg-amber-950 text-white py-2 rounded"
             >
               Send Order
             </button>
@@ -128,9 +128,9 @@ const Menu = () => {
         {/* ORDER CONFIRMATION */}
         {orderSent && returnMsg && (
           <div className="mt-4 p-4 bg-green-100 border border-green-400 rounded text-center max-w-md mx-auto">
-            <h3 className="font-bold text-green-700">🎉 Order Sent!</h3>
-            <p className="mt-2">{returnMsg}</p>
-            <p className="mt-3">🍔 Thanks for choosing Burger Heaven!</p>
+            <h3 className="font-bold text-blue-900">🎉 Order Sent!</h3>
+            <p className="mt-2 text-amber-950">{returnMsg}</p>
+            <p className="mt-3 text-amber-950">🍔 Thanks for choosing Burger Heaven!</p>
           </div>
         )}
       </div>
